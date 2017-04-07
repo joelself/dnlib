@@ -500,6 +500,12 @@ namespace dnlib.DotNet {
 			}
 		}
 
+        public string OldFullName
+        {
+            get;
+            set;
+        }
+
 		/// <summary>
 		/// Gets/sets the <see cref="MethodSig"/>
 		/// </summary>
